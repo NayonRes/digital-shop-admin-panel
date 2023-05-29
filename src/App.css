@@ -1,0 +1,44 @@
+body {
+  background: rgb(245, 245, 245);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+/* --------------------------Text Editor Css Start----------------------------------- */
+.wrapper-class {
+  /* padding: 1rem; */
+  /* border: 1px solid green; */
+}
+.editor-class {
+  background-color: #fff;
+  padding: 8.5px 14px;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  height: 350px;
+}
+.toolbar-class {
+  border: 1px solid #fff;
+}
+/* --------------------------Text Editor Css End----------------------------------- */
+/* --------------------------Input number up and down arrow hide Css Start----------------------------------- */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+/* --------------------------Input number up and down arrow hide Css End----------------------------------- */
+@page {
+  size: auto;
+  margin: 10mm;
+}
+/* @media print {
+  @page {
+    size: 50mm 150mm;
+  }
+} */

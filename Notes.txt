@@ -1,0 +1,4 @@
+=>set message for dropdown need to check
+=> password input a label dile text ta niche neme jay
+=> user update ar kaj ta korte hobe beckend complete api /update-profile (password update sara)
+
